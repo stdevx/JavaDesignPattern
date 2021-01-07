@@ -4,6 +4,7 @@ import com.pattern.adapter.AdapterExample;
 import com.pattern.builder.BuilderExample;
 import com.pattern.factory.FactoryExample;
 import com.pattern.observer.ObserverExample;
+import com.pattern.proxy.ProxyExample;
 import com.pattern.singleton.SingletonExample;
 import com.pattern.visitor.VisitorExample;
 
@@ -20,8 +21,10 @@ public class Main {
 //        observerExample.show();
 //        BuilderExample builderExample = new BuilderExample();
 //        builderExample.show();
-        VisitorExample visitorExample = new VisitorExample();
-        visitorExample.show();
+//        VisitorExample visitorExample = new VisitorExample();
+//        visitorExample.show();
+        ProxyExample proxyExample = new ProxyExample();
+        proxyExample.show();
     }
 
 }
